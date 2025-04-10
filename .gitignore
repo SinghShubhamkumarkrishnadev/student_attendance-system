@@ -1,0 +1,52 @@
+# Node modules and environment variables
+node_modules/
+.env
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Tailwind and PostCSS caches
+.pnpm-debug.log
+.postcss-cache/
+.tailwindcache/
+
+# Miscellaneous
+*.local
+*.log
+
+# Ignore lock files (optional, depending on team policy)
+package-lock.json
+
+# Avoid uploading test coverage reports
+coverage/
+
+# Skip uploading the public folder except favicon
+/public/*
+!/public/favicon.ico
+!/public/index.html
+
+# Skip uploading compiled files (if any)
+*.map
+
+# Optional: Ignore uploads or temp assets
+uploads/
+temp/
+*.bak
+
+# Optional: Skip personal auth/debug files
+auth-debug.json
